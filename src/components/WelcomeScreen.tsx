@@ -120,7 +120,7 @@ const WelcomeScreen: React.FC<WelcomeScreenProps> = ({ onStart }) => {
           <div className="absolute inset-0 bg-gradient-to-r from-green-300/10 to-blue-300/10 rounded-xl -z-5"></div>
           <div className="relative z-10 py-6">
             <h1 className="text-5xl font-bold bg-gradient-to-r from-green-600 to-green-400 bg-clip-text text-transparent mb-3">
-              <img src ="/src/images/EcoQuizz.png" alt="Logo" className="w-64 h-64 mx-auto mb-2" />
+              <img src ="./EcoQuizz.png" alt="Logo" className="w-64 h-64 mx-auto mb-2" />
             </h1>
             <p className="text-gray-600 text-lg">
               Teste tes connaissances sur les produits alimentaires locaux !
