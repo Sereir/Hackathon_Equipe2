@@ -79,9 +79,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 7,
+    id: 7, //
     productName: 'Raisin',
-    imageUrl: 'https://images.pexels.com/photos/60018/grapes-vineyard-napa-valley-wine-60018.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg',
     category: 'origine',
     question: 'Du raisin en janvier en France provient généralement :',
     options: ['De France', 'D\'Espagne', 'Du Chili', 'D\'Afrique du Sud'],
@@ -112,9 +112,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 10,
+    id: 10, //  
     productName: 'Myrtilles',
-    imageUrl: 'https://images.pexels.com/photos/70862/blueberries-berry-blue-blueberry-70862.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/2539170/pexels-photo-2539170.jpeg',
     category: 'origine',
     question: 'Des myrtilles en hiver proviennent :',
     options: ['De production locale', 'D\'importation', 'De congélation', 'De serre'],
@@ -147,9 +147,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 13,
+    id: 13, //
     productName: 'Citrouilles',
-    imageUrl: 'https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/673073/pexels-photo-673073.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des citrouilles ?',
     options: ['Été', 'Automne', 'Printemps', 'Hiver'],
@@ -169,9 +169,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 15,
+    id: 15, //
     productName: 'Courges',
-    imageUrl: 'https://images.pexels.com/photos/2893639/pexels-photo-2893639.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/4187618/pexels-photo-4187618.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des courges ?',
     options: ['Printemps', 'Été', 'Automne', 'Hiver'],
@@ -180,9 +180,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 16,
+    id: 16, //
     productName: 'Radis',
-    imageUrl: 'https://images.pexels.com/photos/144248/potatoes-vegetables-erdfrucht-bio-144248.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/775207/pexels-photo-775207.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des radis en France ?',
     options: ['Hiver', 'Printemps', 'Été', 'Automne'],
@@ -191,9 +191,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 17,
+    id: 17, //
     productName: 'Pêches',
-    imageUrl: 'https://images.pexels.com/photos/1128678/pexels-photo-1128678.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/10026608/pexels-photo-10026608.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des pêches ?',
     options: ['Printemps', 'Début d\'été', 'Mi-été', 'Automne'],
@@ -213,9 +213,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 19,
+    id: 19, //
     productName: 'Framboises',
-    imageUrl: 'https://images.pexels.com/photos/4828486/pexels-photo-4828486.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/52536/raspberry-fruits-fresh-red-52536.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des framboises ?',
     options: ['Printemps', 'Été', 'Automne', 'Été et automne pour les remontantes'],
@@ -224,9 +224,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 20,
+    id: 20, //
     productName: 'Chou-fleur',
-    imageUrl: 'https://images.pexels.com/photos/2893635/pexels-photo-2893635.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/1227806/pexels-photo-1227806.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison du chou-fleur ?',
     options: ['Printemps', 'Été', 'Automne', 'Toute l\'année selon les variétés'],
@@ -237,9 +237,9 @@ export const questions: Question[] = [
 
   // Combinaison: facile + distribution (10 questions)
   {
-    id: 21,
+    id: 21, //
     productName: 'Miel',
-    imageUrl: 'https://images.pexels.com/photos/266521/pexels-photo-266521.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/302163/pexels-photo-302163.jpeg',
     category: 'distribution',
     question: 'Quel circuit de distribution a la plus faible empreinte carbone pour le miel ?',
     options: ['Marché de producteurs', 'Supermarché', 'Boutique en ligne', 'Grossiste'],
@@ -303,9 +303,9 @@ export const questions: Question[] = [
     difficulty: 'facile'
   },
   {
-    id: 27,
+    id: 27, //
     productName: 'Poisson',
-    imageUrl: 'https://images.pexels.com/photos/64219/salmon-dish-food-meal-64219.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/8963384/pexels-photo-8963384.jpeg',
     category: 'distribution',
     question: 'Où acheter du poisson le plus frais et local ?',
     options: ['Poissonnerie de supermarché', 'Poissonnerie artisanale', 'Marché aux poissons', 'Criée locale'],
@@ -371,9 +371,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 33,
+    id: 33, //
     productName: 'Chocolat',
-    imageUrl: 'https://images.pexels.com/photos/69817/france-confectionery-raspberry-cake-69817.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg',
     category: 'origine',
     question: 'D\'où provient le cacao utilisé dans le chocolat français ?',
     options: ['Exclusivement d\'Afrique', 'Principalement d\'Afrique de l\'Ouest', 'D\'Amérique du Sud', 'D\'Asie'],
@@ -382,9 +382,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 34,
+    id: 34, //
     productName: 'Riz',
-    imageUrl: 'https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg',
     category: 'origine',
     question: 'Le riz consommé en France provient principalement :',
     options: ['De Camargue', 'D\'Italie', 'D\'Asie', 'Des trois origines'],
@@ -483,9 +483,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 43,
+    id: 43, //
     productName: 'Artichauts',
-    imageUrl: 'https://images.pexels.com/photos/4207918/pexels-photo-4207918.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/3647046/pexels-photo-3647046.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des artichauts en France ?',
     options: ['Printemps', 'Début d\'été', 'Automne', 'Printemps et début d\'été'],
@@ -494,9 +494,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 44,
+    id: 44, //
     productName: 'Figues',
-    imageUrl: 'https://images.pexels.com/photos/6157053/pexels-photo-6157053.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/33791/fig-sliced-plate-wooden-table.jpg',
     category: 'saisonnalité',
     question: 'Quelle est la saison des figues fraîches ?',
     options: ['Début d\'été', 'Fin d\'été/début automne', 'Printemps', 'Hiver'],
@@ -505,9 +505,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 45,
+    id: 45, //
     productName: 'Champignons de Paris',
-    imageUrl: 'https://images.pexels.com/photos/547263/pexels-photo-547263.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/36438/mushrooms-brown-mushrooms-cook-eat.jpg',
     category: 'saisonnalité',
     question: 'Quelle est la saison des champignons de Paris ?',
     options: ['Printemps', 'Été', 'Automne', 'Toute l\'année (culture en cave)'],
@@ -516,9 +516,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 46,
+    id: 46, //
     productName: 'Noix',
-    imageUrl: 'https://images.pexels.com/photos/4207906/pexels-photo-4207906.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/3640631/pexels-photo-3640631.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des noix fraîches ?',
     options: ['Été', 'Automne', 'Hiver', 'Printemps'],
@@ -527,7 +527,7 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 47,
+    id: 47, //
     productName: 'Endives',
     imageUrl: 'https://images.pexels.com/photos/775031/pexels-photo-775031.jpeg',
     category: 'saisonnalité',
@@ -549,9 +549,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 49,
+    id: 49, //
     productName: 'Brocolis',
-    imageUrl: 'https://images.pexels.com/photos/321551/pexels-photo-321551.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/53821/pexels-photo-53821.jpeg',
     category: 'saisonnalité',
     question: 'Quelle est la meilleure saison pour le brocoli ?',
     options: ['Printemps', 'Été', 'Automne', 'Printemps et automne'],
@@ -560,9 +560,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 50,
+    id: 50, //
     productName: 'Châtaignes',
-    imageUrl: 'https://images.pexels.com/photos/4207910/pexels-photo-4207910.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/1448673/pexels-photo-1448673.jpeg',
     category: 'saisonnalité',
     question: 'Quand est la saison des châtaignes ?',
     options: ['Été', 'Automne', 'Hiver', 'Printemps'],
@@ -584,9 +584,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 52,
+    id: 52, //
     productName: 'Poisson',
-    imageUrl: 'https://images.pexels.com/photos/64219/salmon-dish-food-meal-64219.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/8963384/pexels-photo-8963384.jpeg',
     category: 'distribution',
     question: 'Quel label garantit une pêche durable en grande surface ?',
     options: ['MSC', 'AB', 'AOP', 'Label Rouge'],
@@ -650,9 +650,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 58,
+    id: 58, //
     productName: 'Légumes secs',
-    imageUrl: 'https://images.pexels.com/photos/5638713/pexels-photo-5638713.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/5336711/pexels-photo-5336711.jpeg',
     category: 'distribution',
     question: 'Quel conditionnement est le plus durable pour les lentilles ?',
     options: ['Brique carton', 'Sachet plastique', 'Vrac', 'Boîte métal'],
@@ -661,9 +661,9 @@ export const questions: Question[] = [
     difficulty: 'moyen'
   },
   {
-    id: 59,
+    id: 59, //
     productName: 'Chocolat',
-    imageUrl: 'https://images.pexels.com/photos/69817/france-confectionery-raspberry-cake-69817.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg',
     category: 'distribution',
     question: 'Quel label garantit un cacao éthique ?',
     options: ['Fairtrade', 'AB', 'Rainforest Alliance', 'Tous ces labels'],
@@ -685,9 +685,9 @@ export const questions: Question[] = [
 
   // Combinaison: difficile + origine (10 questions)
   {
-    id: 61,
+    id: 61, //
     productName: 'Quinoa',
-    imageUrl: 'https://images.pexels.com/photos/5638713/pexels-photo-5638713.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/1306548/pexels-photo-1306548.jpeg',
     category: 'origine',
     question: 'D\'où provient le quinoa "durable" ayant le moins d\'impact social négatif ?',
     options: ['Pérou', 'Bolivie', 'France', 'États-Unis'],
@@ -729,9 +729,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 65,
+    id: 65, //
     productName: 'Huile de palme',
-    imageUrl: 'https://images.pexels.com/photos/4033324/pexels-photo-4033324.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/21852240/pexels-photo-21852240/free-photo-of-nature-clairiere-terrain-fleurs.jpeg',
     category: 'origine',
     question: 'Quel pays produit de l\'huile de palme "durable" certifiée ?',
     options: ['Indonésie', 'Malaisie', 'Colombie', 'Les trois'],
@@ -762,7 +762,7 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 68,
+    id: 68, //
     productName: 'Avocats',
     imageUrl: 'https://images.pexels.com/photos/2228553/pexels-photo-2228553.jpeg',
     category: 'origine',
@@ -784,9 +784,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 70,
+    id: 70, 
     productName: 'Riz',
-    imageUrl: 'https://images.pexels.com/photos/2092507/pexels-photo-2092507.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/4110251/pexels-photo-4110251.jpeg',
     category: 'origine',
     question: 'Le riz de Camargue est préférable car :',
     options: ['Sans arsenic', 'Moins d\'eau', 'Sans travail forcé', 'Tous ces avantages'],
@@ -831,9 +831,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 74,
+    id: 74, //
     productName: 'Haricots verts',
-    imageUrl: 'https://images.pexels.com/photos/128420/pexels-photo-128420.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/3338497/pexels-photo-3338497.jpeg',
     category: 'saisonnalité',
     question: 'Quelle est la saison naturelle des haricots verts en France ?',
     options: ['Mai à juillet', 'Juin à septembre', 'Juillet à octobre', 'Toute l\'année'],
@@ -842,9 +842,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 75,
+    id: 75, //
     productName: 'Poires',
-    imageUrl: 'https://images.pexels.com/photos/6157049/pexels-photo-6157049.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/568471/pexels-photo-568471.jpeg',
     category: 'saisonnalité',
     question: 'Comment sont conservées les poires d\'hiver ?',
     options: ['Congélation', 'Atmosphère contrôlée', 'Irradiation', 'Cire alimentaire'],
@@ -853,9 +853,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 76,
+    id: 76, //
     productName: 'Raisin',
-    imageUrl: 'https://images.pexels.com/photos/60018/grapes-vineyard-napa-valley-wine-60018.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg',
     category: 'saisonnalité',
     question: 'Quelle est la saison exacte du raisin français de table ?',
     options: ['Juillet à septembre', 'Août à octobre', 'Septembre à novembre', 'Mai à juillet'],
@@ -875,9 +875,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 78,
+    id: 78, //
     productName: 'Salade',
-    imageUrl: 'https://images.pexels.com/photos/2325833/pexels-photo-2325833.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/31782675/pexels-photo-31782675.jpeg',
     category: 'saisonnalité',
     question: 'Pourquoi éviter la laitue en été ?',
     options: ['Elle monte en graine', 'Vient de serres climatisées', 'Est traitée aux nitrates', 'Tous ces facteurs'],
@@ -886,9 +886,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 79,
+    id: 79, //
     productName: 'Courges',
-    imageUrl: 'https://images.pexels.com/photos/2893639/pexels-photo-2893639.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/4187618/pexels-photo-4187618.jpeg',
     category: 'saisonnalité',
     question: 'Jusqu\'à quand peut-on consommer des courges locales ?',
     options: ['Décembre', 'Mars', 'Juin', 'Septembre'],
@@ -1010,9 +1010,9 @@ export const questions: Question[] = [
     difficulty: 'difficile'
   },
   {
-    id: 90,
+    id: 90, //
     productName: 'Chocolat',
-    imageUrl: 'https://images.pexels.com/photos/1070850/pexels-photo-1070850.jpeg',
+    imageUrl: 'https://images.pexels.com/photos/65882/chocolate-dark-coffee-confiserie-65882.jpeg',
     category: 'distribution',
     question: 'Quel chocolat équitable a aussi un bon bilan carbone ?',
     options: ['Chocolat 100% Pérou', 'Chocolat UE à base de fèves africaines', 'Chocolat local de planteur', 'Chocolat industriel'],

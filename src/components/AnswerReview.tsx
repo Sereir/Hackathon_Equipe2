@@ -88,7 +88,7 @@ const AnswerReview: React.FC<AnswerReviewProps> = ({
         <div className="flex justify-between items-center mb-8">
           <div className="flex items-center">
             <Clock className="w-4 h-4 text-gray-600 mr-2" />
-            <span className="text-gray-700">Time: {timeTaken.toFixed(1)}s</span>
+            <span className="text-gray-700">Temps: {timeTaken.toFixed(1)}s</span>
           </div>
           <div className="font-semibold text-lg">
             +{points} points
