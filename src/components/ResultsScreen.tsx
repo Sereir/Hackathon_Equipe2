@@ -16,16 +16,16 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
   questions,
   onRestart,
 }) => {
-  // Calculate percentage correct
+  // Calculer le pourcentage correct
   const percentage = Math.round((score.correct / score.total) * 100);
 
-  // Create a message based on the score
+  // Créer un message basé sur le score
   const getMessage = () => {
-    if (percentage >= 90) return "Amazing! You're a local food expert!";
-    if (percentage >= 70) return "Great job! You know your local foods well!";
+    if (percentage >= 90) return "Incroyable ! Vous êtes un expert des produits locaux !";
+    if (percentage >= 70) return "Bravo ! Vous connaissez bien vos produits locaux !";
     if (percentage >= 50)
-      return "Good effort! You're learning about local foods.";
-    return "Keep learning about local products!";
+      return "Bon effort ! Vous apprenez à connaître les produits locaux.";
+    return "Continuez à apprendre sur les produits locaux !";
   };
 
   return (
@@ -37,7 +37,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
         <p className="text-gray-600">{getMessage()}</p>
       </div>
 
-      {/* Score summary */}
+      {/* Résumé du score */}
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
         <div className="bg-green-50 p-4 rounded-lg text-center">
           <Trophy className="w-6 h-6 text-green-500 mx-auto mb-2" />
@@ -47,10 +47,10 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
 
         <div className="bg-blue-50 p-4 rounded-lg text-center">
           <BarChart className="w-6 h-6 text-blue-500 mx-auto mb-2" />
-          <p className="text-sm text-gray-600">Accuracy</p>
+          <p className="text-sm text-gray-600">Précision</p>
           <p className="text-2xl font-bold text-blue-600">{percentage}%</p>
           <p className="text-xs text-gray-500">
-            {score.correct}/{score.total} correct
+            {score.correct}/{score.total} corrects
           </p>
         </div>
 
@@ -64,14 +64,14 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
 
         <div className="bg-orange-50 p-4 rounded-lg text-center">
           <Clock className="w-6 h-6 text-orange-500 mx-auto mb-2" />
-          <p className="text-sm text-gray-600">Temps Moyen</p>
+          <p className="text-sm text-gray-600">Temps moyen</p>
           <p className="text-2xl font-bold text-orange-600">
             {score.averageTime.toFixed(1)}s
           </p>
         </div>
       </div>
 
-      {/* Answer review */}
+      {/* Revue des réponses */}
       <div className="mb-8">
         <h2 className="text-xl font-semibold text-gray-800 mb-4">
           Vos réponses
@@ -99,9 +99,9 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
                   <div>
                     <p className="font-medium">{question.productName}</p>
                     <p className="text-sm text-gray-600">
-                      {answer.answer ? answer.answer : "No answer"}
+                      {answer.answer ? answer.answer : "Pas de réponse"}
                       {!answer.isCorrect &&
-                        ` (Correct: ${question.correctAnswer})`}
+                        ` (Correct : ${question.correctAnswer})`}
                     </p>
                   </div>
                 </div>
@@ -114,7 +114,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
         </div>
       </div>
 
-      {/* Educational summary */}
+      {/* Résumé éducatif */}
       <div className="mb-8 p-5 bg-blue-50 rounded-lg">
         <h2 className="text-xl font-semibold text-blue-700 mb-3">
           🌍 Pourquoi consommer local&nbsp;?
@@ -152,7 +152,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
         </ul>
       </div>
 
-      {/* Restart button */}
+      {/* Bouton de redémarrage */}
       <button
         onClick={onRestart}
         className="w-full py-3 bg-green-500 text-white rounded-lg font-semibold flex items-center justify-center hover:bg-green-600 active:scale-95 transition-transform"
@@ -164,7 +164,7 @@ const ResultsScreen: React.FC<ResultsScreenProps> = ({
   );
 };
 
-// Add missing import
+// Ajouter l'import manquant
 const Check = ({ className }: { className: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"

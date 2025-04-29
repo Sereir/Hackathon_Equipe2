@@ -74,7 +74,7 @@ function App() {
   // Update page title based on game state
   useEffect(() => {
     const titles = {
-      welcome: 'Local Battle - Test Your Food Knowledge',
+      welcome: '🌾 EcoQuizz - Mangeons Local, pensons global 🌾',
       playing: `Question ${currentQuestionIndex + 1} - Local Battle`,
       review: 'Answer Review - Local Battle',
       results: 'Your Results - Local Battle'
